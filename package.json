@@ -1,0 +1,24 @@
+{
+"name": "eslint-plugin-enhancer",
+  "description": "Eslint rules collection to enhance complex files readability",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint sandbox.js",
+    "test": "node run-tests.js"
+  },
+  "keywords": [
+    "eslint",
+    "javascript",
+    "class",
+    "typescript"
+  ],
+  "author": "sir.serje@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
